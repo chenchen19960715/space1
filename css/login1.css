@@ -1,0 +1,123 @@
+
+body {
+    font-family: "微软雅黑";
+}
+
+#header { /*头部居中*/
+    width: 1200px;
+    height: 72px;
+    margin: 42px auto 0;
+}
+
+#header img {
+    margin-left: 50px;
+    margin-right: 33px;
+    vertical-align: middle;
+    /*设置所有行元素中线对齐*/
+
+}
+
+#header span.line {
+    /* display行内块元素设置宽高 */
+    display: inline-block;
+    height: 68px;
+    border: 4px solid #676767;
+    margin-right: 22px;
+    vertical-align: middle;
+}
+
+#header span.wel-login {
+    font-size: 36px;
+    color: #676767;
+    font-weight: bolder;
+    text-shadow: 0px 0px 37px #ff0000;
+    vertical-align: middle;
+
+}
+
+#middle {
+    /*设置体部的宽度，高度*/
+    width: 1200px;
+    height: 479px;
+
+    /*设置外边距-上右下左*/
+    margin: 42px auto 0px auto;
+    border: 6px solid #ded9d9;
+    border-width: 9px 7px;
+}
+
+#middle form {
+    /**/
+    display: inline-block;
+    width: 385px;
+    margin-left: 110px;
+    /* 让当前元素与行内最高元素顶部对齐 */
+    vertical-align: top;
+}
+
+#middle form h1 {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 87px 0 15px;
+
+}
+
+#middle #err-mes {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+#middle input {
+    width: 381px;
+    height: 49px;
+    border: 2px solid cornflowerblue;
+    color: #999999;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 46px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+}
+
+#middle form input[name='username'] {
+    background-image: url('../images/u_ico.jpg');
+    background-repeat: no-repeat;
+    background-position: 14px 14px;
+}
+
+#middle form input[name='ps'] {
+    background-image: url('../images/p_ico.jpg');
+    background-repeat: no-repeat;
+    background-position: 14px 14px;
+}
+
+#middle form input[name='login'] {
+    width: 200px;
+    background-color: #ff0000;
+    font-size: 20px;
+    color: #ffffff;
+    text-indent: 0px;
+    border-radius: 15px;
+    margin-left: 75px;
+
+
+}
+
+
+#footer {
+    width: 1200px;
+    height: 50px;
+    margin: 144px auto 10px;
+
+}
+
+#footer p {
+    margin-top: 230px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 50px;
+}

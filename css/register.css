@@ -1,0 +1,190 @@
+@charset "utf-8";
+body {
+    font-family: 微软雅黑;
+}
+
+#header {
+    width: 1200px;
+    height: 114px;
+    /*左右外边距自适应auto*/
+    margin: 42px auto 0;
+}
+
+#line1 { /*头部第一行*/
+    height: 72px;
+}
+
+#line1 img {
+    margin-left: 50px;
+    margin-right: 33px;
+    vertical-align: middle;
+}
+
+#line1 .bank { /*span是行元素不能设置宽高，display将span设置为行内块元素*/
+    display: inline-block;
+    border: 2px solid #676767;
+    height: 68px;
+    margin-right: 23px;
+    vertical-align: middle;
+}
+
+#line1 .wel-login {
+    font-size: 32px;
+    color: #676767;
+    vertical-align: middle;
+}
+
+#line2 {
+    height: 42px;
+    text-align: right;
+
+}
+
+#line2 span {
+    font-size: 24px;
+    color: #999999;
+}
+
+#line2 a {
+    font-size: 24px;
+    color: #333333;
+    /*设置文本没有下划线*/
+    text-decoration: none;
+}
+
+#main {
+    width: 1200px;
+    height: 545px;
+    /*padding内边距*/
+    padding-top: 75px;
+    margin: 30px auto 0;
+    border: 7px solid #999999;
+}
+
+#main .table {
+    display: inline-block;
+    width: 819px;
+    height: 545px;
+    margin-left: 109px;
+    vertical-align: middle;
+}
+
+#main input {
+    width: 381px;
+    height: 50px;
+    font-size: 16px;
+    color: #999999;
+    text-indent: 45px;
+}
+
+#main form table input[name='username'] {
+    background: url("../images/u_ico.jpg") no-repeat 18px 15px;
+    /* no-repeat背景图片不重复 */
+}
+
+/*设置用户名下方提示样式*/
+#main .ms1 {
+    width: 385px;
+    height: 32px;
+    background: url("../images/alert_1.jpg") no-repeat 20px 8px;
+    font-size: 12px;
+    color: #333333;
+    text-indent: 50px;
+}
+
+#main .ms1-no {
+    width: 385px;
+    height: 32px;
+    display: none;
+}
+
+#main .ms2 {
+    width: 385px;
+    height: 32px;
+    background: url("../images/alert_1.jpg") no-repeat 20px 8px;
+    font-size: 12px;
+    color: #333333;
+    text-indent: 50px;
+}
+
+#main .ms3 {
+    width: 385px;
+    height: 32px;
+    background: url("../images/alert_2.jpg") no-repeat 20px 8px;
+    font-size: 12px;
+    color: red;
+    text-indent: 50px;
+}
+
+#main input[name='pd1'] {
+    background: url("../images/p_ico.jpg") no-repeat 18px 15px;
+}
+
+#main input[name='pd2'] {
+    background: url("../images/p_ico.jpg") no-repeat 18px 15px;
+}
+
+#main input[name='iphone'] {
+    background: url("../images/phone_ico.jpg") no-repeat 18px 15px;
+}
+
+#main form table .rc span {
+    font-size: 16px;
+}
+
+#main form table .rc a {
+    font-size: 16px;
+    color: #005ea7;
+    text-decoration: none;
+}
+
+#main .protocal {
+    height: 83px;
+    font-size: 16px;
+    text-indent: 0px;
+
+}
+
+#main .protocal span {
+    vertical-align: middle;
+}
+
+#main .protocal input[name="isAgree"] {
+    width: 18px;
+    height: 18px;
+    margin-left: 30px;
+}
+
+#main .protocal a {
+    color: #005ea7;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#main input[name="register"] {
+    background: red;
+    width: 381px;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    /*覆盖首行缩进*/
+    text-indent: 0px;
+}
+
+#main img {
+    vertical-align: top;
+}
+
+#footer {
+    width: 1200px;
+    margin: 109px auto 0;
+
+}
+
+#footer p {
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 2px;
+    line-height: 42px;
+    text-align: center;
+}

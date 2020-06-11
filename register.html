@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册新用户</title>
+    <!--stylesheet样式表-->
+    <!--引入css样式-->
+    <link rel="stylesheet" href="./css/register.css">
+    <!--引入js脚本语言-->
+    <link rel="script" href="js/register.js">
+    <script>
+        function check() {
+            var pd1 = document.getElementById("user_pd1").value;
+            var pd2 = document.getElementById("user_pd2").value;
+            if (pd1 != pd2) {
+                alert("两次密码不一致");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+<div id="header">
+    <div id="line1">
+        <img src="./images/logo_jt.jpg">
+        <span class="bank"> </span>
+        <span class="wel-login">欢迎注册</span>
+    </div>
+
+    <div id="line2">
+        <span class="pl-login">已有账号？</span>
+        <a href="index.html"> 请登录</a>
+    </div>
+</div>
+
+<div id="main">
+    <!--action提交表单到服务器-->
+    <form action="#" class="table">
+        <table>
+            <tr><!--用户名-->
+                <td><input id=1 type="text" name="username" placeholder="用户名" autocomplete="off"/></td>
+            </tr>
+            <tr><!--提示消息1-->
+                <td class="ms1">
+                    支持中文、英文字母、数字、"_"组合，4-20个字符
+                </td>
+            </tr>
+            <tr><!--密码-->
+                <td><input id="user_pd1" type="password" name="pd1" placeholder="设置密码"/></td>
+            </tr>
+            <tr><!--提示消息2-->
+                <td class="ms2">
+                    建议使用数字、字母和符号两种以上的组合，6-20个字符
+                </td>
+            </tr>
+            <tr><!--确认密码-->
+                <td><input id="user_pd2" type="password" name="pd2" placeholder="确认密码" inputmode="check()"/></td>
+            </tr>
+            <tr><!--提示消息3-->
+                <td class="ms3">
+                    两次密码输入不一致
+                </td>
+            </tr>
+            <tr><!--验证手机-->
+                <td class="rc"><input type="" name="iphone" placeholder="验证手机" autocomplete="off"/>
+                    &nbsp;<span>或</span>&nbsp;
+                    <a href="#">验证邮箱</a>
+                </td>
+            </tr>
+            <tr><!--用户手册-->
+                <td class="protocal">
+                    <span class="u1"> <input name="isAgree" type="checkbox" value="yes"/></span>
+                    <span class="u2">我已阅读用户手册</span>&nbsp;
+                    <a href="#">《京淘用户注册协议》</a>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="register" value="立即注册"></td>
+            </tr>
+        </table>
+    </form>
+    <img src="images/msg.jpg"/>
+
+</div>
+<div id="footer">
+    <p>
+        关于我们|
+        联系我们|
+        人才招聘|
+        商家入驻|
+        营销中心|
+        手机京淘|
+        友情链接|
+        销售联盟|
+        京淘社区|
+        京淘公益|
+        English|
+        <br/>
+        Copyringht@2004-2020 京淘jingtao.com版权所有
+
+    </p>
+</div>
+</body>
+</html>
